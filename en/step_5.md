@@ -202,13 +202,13 @@ line_numbers: true
 line_number_start: 50
 line_highlights: 50-56
 ---
-set_rgb(255, 0, 0)  # red
-time.sleep(1)
-set_rgb(0, 255, 0)  # green
-time.sleep(1)
-set_rgb(0, 0, 255)  # blue
-time.sleep(1)
-set_rgb(0, 0, 0)    # off
+~~set_rgb(255, 0, 0)  # red~~
+~~time.sleep(1)~~
+~~set_rgb(0, 255, 0)  # green~~
+~~time.sleep(1)~~
+~~set_rgb(0, 0, 255)  # blue~~
+~~time.sleep(1)~~
+~~set_rgb(0, 0, 0)    # off~~
 
 --- /code ---
 
