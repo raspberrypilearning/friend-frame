@@ -5,9 +5,14 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Install or update Thonny
     completion:
-      - engaged      
+      - engaged
+  - title: Add the MicroPython firmware
+  - title: RGB LED
+  - title: Check ntfy
+  - title: Change colour if ntfy
+  - title: Touch control
   - title: Challenge
     challenge: true
     completion:
