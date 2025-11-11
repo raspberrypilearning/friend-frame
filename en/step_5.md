@@ -156,7 +156,7 @@ Create the main program loop.
 language: python
 line_numbers: true
 line_number_start: 27
-line_highlights: 33-48
+line_highlights: 33-51
 ---
 def open_events():
     url = "{}/{}/json".format(NTFY_SERVER.rstrip("/"), NTFY_TOPIC)
@@ -195,21 +195,16 @@ set_rgb(255, 0, 0)  # red
 
 **Delete** this section of code that you created in the last step.
 
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 50
-line_highlights: 50-56
----
-~~set_rgb(255, 0, 0)  # red~~
-~~time.sleep(1)~~
-~~set_rgb(0, 255, 0)  # green~~
-~~time.sleep(1)~~
-~~set_rgb(0, 0, 255)  # blue~~
-~~time.sleep(1)~~
-~~set_rgb(0, 0, 0)    # off~~
 
---- /code ---
+```python
+set_rgb(255, 0, 0)  # red
+time.sleep(1)
+set_rgb(0, 255, 0)  # green
+time.sleep(1)
+~~set_rgb(0, 0, 255)  # blue~~
+time.sleep(1)
+set_rgb(0, 0, 0)    # off
+```
+
 
 --- /task ---
