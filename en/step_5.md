@@ -195,16 +195,20 @@ set_rgb(255, 0, 0)  # red
 
 **Delete** this section of code that you created in the last step.
 
-
-```python
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 53
+line_highlights: 53-59
+---
 set_rgb(255, 0, 0)  # red
 time.sleep(1)
 set_rgb(0, 255, 0)  # green
 time.sleep(1)
-~~set_rgb(0, 0, 255)  # blue~~
+set_rgb(0, 0, 255)  # blue
 time.sleep(1)
 set_rgb(0, 0, 0)    # off
-```
-
+--- /code ---
 
 --- /task ---
