@@ -10,7 +10,7 @@ Add the RGB LED to the breadboard in **column E**, so that each leg sits in its 
 
 The second leg from the top should be the longest leg.
 
-![RGB LED placed in breadboard](images/RGB-bb-7.png)
+![RGB LED placed in breadboard](images/RGB-bb-7.png){:width="450px"}
 
 --- /task ---
 
@@ -18,7 +18,7 @@ The second leg from the top should be the longest leg.
 
 Connect a the GND pin on your microcontroller to the same row as that GND leg of the RGB LED.
 
-![GND pin from ESP board connected to the same row as the RGB GND leg.](images/RGB-bb-6.png)
+![GND pin from ESP board connected to the same row as the RGB GND leg.](images/RGB-bb-6.png){:width="450px"}
 
 --- /task ---
 
@@ -28,7 +28,7 @@ Add a resistor to **column B**.
 
 In our example, it connects the Red leg on row 24 to row 20.
 
-![Resistor added to the breadboard.](images/RGB-bb-5.png)
+![Resistor added to the breadboard.](images/RGB-bb-5.png){:width="450px"}
 
 --- /task ---
 
@@ -38,7 +38,7 @@ Add another resistor to **column C**.
 
 In our example, it connects the Green leg on row 26 to row 22.
 
-![Second resistor added to the breadboard.](images/RGB-bb-4.png)
+![Second resistor added to the breadboard.](images/RGB-bb-4.png){:width="450px"}
 
 --- /task ---
 
@@ -48,7 +48,7 @@ Add a resistor to **column D**.
 
 In our example, it connects the Blue leg on row 27 to row 23.
 
-![Third resistor added to the breadboard.](images/RGB-bb-3.png)
+![Third resistor added to the breadboard.](images/RGB-bb-3.png){:width="450px"}
 
 --- /task ---
 
@@ -138,9 +138,3 @@ Enter `main.py` as the file name and Click 'OK'.
 --- /task ---
 
 **Debug**: If you get an error saying the device is busy, you need to first 'Stop' the program running on the Pico.
-
-
-- Check ntfy
-- LED change colour if ntfy
-- 
-- 
