@@ -68,7 +68,7 @@ Click the Python interpreter and select MicroPython.
 
 --- /task ---
 
-You will see this message and the REPL prompt '>>>' in the Shell:
+You will see this message and the REPL prompt `>>>` in the Shell:
 
 ![The Shell showing the message "MicroPython v1.26.1 on 2025-09-11; ESP module with ESP8266 Type "help()" for more information." followed by the REPL prompt.](images/micropython_prompt.png)
 

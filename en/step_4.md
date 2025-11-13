@@ -56,9 +56,9 @@ In our example, it connects the Blue leg on row 27 to row 23.
 
 Use jumper cables to connect the resistors to the microcontroller pins. 
 
-- 'Red' resistor    >>> Pin D5 (GPIO 15)
-- 'Green' resistor  >>> Pin D6 (GPIO 13)
-- 'Blue' resistor   >>> Pin D7 (GPIO 12)
+- 'Red' resistor    >> Pin D5 (GPIO 15)
+- 'Green' resistor  >> Pin D6 (GPIO 13)
+- 'Blue' resistor   >> Pin D7 (GPIO 12)
 
 ![Cables connecting the resistors to the microcontroller pins.](images/RGB-bb.png)
 
@@ -131,10 +131,16 @@ Thonny will give you the option to save the file on **This computer**, or the **
 
 Choose **MicroPython device**.
 
+--- /task ---
+
+--- task ---
+
 Enter `main.py` as the file name and Click 'OK'. 
 
-**Tip:** You need to enter the `.py` file extension so that Thonny recognises the file as a Python file. 
+**Tip:** 
+- You need to enter the `.py` file extension so that Thonny recognises the file as a Python file. 
+- You use `main.py` as the filename because your microcontroller will always run that file on boot.
 
 --- /task ---
 
-**Debug**: If you get an error saying the device is busy, you need to first 'Stop' the program running on the Pico.
+**Debug**: If you get an error saying the device is busy, you need to first 'Stop' the program running.
