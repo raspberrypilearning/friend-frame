@@ -1,21 +1,124 @@
-## Choose a topic
-
-ntfy (pronounced 'notify') is a free messaging service that lets you send notifications.
-
-### Subscribe to a topic
+## Connect to WiFi
 
 --- task ---
 
-Go to [https://ntfy.sh/app](https://ntfy.sh/app){:target="_blank"}
+Import the WiFi class.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 1
+---
+from helper import LED, WiFi
+
+led = LED(r=15, g=13, b=12)
+
+led.blink()
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Click 'Subscripe to topic', enter a **unique** topic name and then click the 'Subscribe' button.
+Set the variables. 
 
-You will be redirected to the topic page, e.g. `ntfy.sh/<topic-name>`.
+Make sure you enter your WiFi SSID and password.
 
-**Tip**: Bookmark this topic page or make a note of it.
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 3-4
+---
+from helper import LED, WiFi
+
+WIFI_SSID = "your_ssid"
+WIFI_PASS = "your_pass"
+
+led = LED(r=15, g=13, b=12)
+
+led.blink()
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Delete** this section of code that you created in the last step.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 8
+---
+led.blink()
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Add a function to blink blue when connected.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 8-9
+---
+from helper import LED, WiFi
+
+WIFI_SSID = "your_ssid"
+WIFI_PASS = "your_pass"
+
+led = LED(r=15, g=13, b=12)
+
+def connected():
+    led.blink("blue")
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Call the 'connected' function when the device connects to WiFi. 
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 1
+line_highlights: 12
+---
+from helper import LED, WiFi
+
+WIFI_SSID = "your_ssid"
+WIFI_PASS = "your_pass"
+
+led = LED(r=15, g=13, b=12)
+
+def connected():
+    led.blink("blue")
+
+
+WiFi.connect(WIFI_SSID, WIFI_PASS, on_success=connected)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test** Save and run your code. You should see the RGB LED blink blue when it has connected to WiFi.
 
 --- /task ---

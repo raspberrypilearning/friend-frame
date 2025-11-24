@@ -72,24 +72,3 @@ You will see this message and the REPL prompt `>>>` in the Shell:
 
 ![The Shell showing the message "MicroPython v1.26.1 on 2025-09-11; ESP module with ESP8266 Type "help()" for more information." followed by the REPL prompt.](images/micropython_prompt.png)
 
---- task ---
-
-Paste this code at the REPL prompt to blink the onboard LED.
-
-```python
-from machine import Pin
-from time import sleep
-led = Pin(2, Pin.OUT)
-while True:
-  led.toggle()
-  sleep(0.5)
-```
-
---- /task ---
-
---- task ---
-
-Press the Stop/restart backend button to stop the code.
-![Red stop button](images/stop.png){:width="30px"}
-
---- /task ---

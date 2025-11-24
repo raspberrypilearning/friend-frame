@@ -10,11 +10,11 @@ steps:
       - engaged
   - title: Add the MicroPython firmware
   - title: RGB LED
-  - title: Create a topic
   - title: Connect to WiFi
+  - title: Create a topic
   - title: Check topic
-  - title: Change colour on message
-  - title: Touch control
+  - title: Respond to specific messages
+  - title: Build your friend's frame
   - title: Challenge
     challenge: true
     completion:

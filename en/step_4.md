@@ -60,7 +60,7 @@ Use jumper cables to connect the resistors to the microcontroller pins.
 - 'Green' resistor  >> Pin D6 (GPIO 13)
 - 'Blue' resistor   >> Pin D7 (GPIO 12)
 
-![Cables connecting the resistors to the microcontroller pins.](images/RGB-bb.png)
+![Cables connecting the resistors to the microcontroller pins.](images/RGB-bb.png){:width="450px"}
 
 --- /task ---
 
@@ -70,62 +70,45 @@ Connect the microcontroller to your computer using a usb cable.
 
 --- /task ---
 
-# Control the RGB LED with code 
+### Download the starter project
 
 --- task ---
 
-Click in the main editor pane of Thonny. 
+Download the [starter](resources/frame.zip){:target="_blank"} project and double-click it to see the 'frame' folder and its contents.
 
-Enter this code. 
+The 'frame' folder contains two Python files: 
 
-``` python
-from machine import Pin, PWM
-import time
+1) a starter file 'main.py'
+2) a 'helper.py' file.
 
-r = machine.PWM(Pin(15), freq=1000)
-g = machine.PWM(Pin(13), freq=1000)
-b = machine.PWM(Pin(12), freq=1000)
+--- /task ---
 
-def set_rgb(rval, gval, bval):
-    r.duty(int((rval/255)*1023))
-    g.duty(int((gval/255)*1023))
-    b.duty(int((bval/255)*1023))
+### Control the RGB LED with code 
 
+--- task ---
 
-set_rgb(255, 0, 0)  # red
-time.sleep(1)
-set_rgb(0, 255, 0)  # green
-time.sleep(1)
-set_rgb(0, 0, 255)  # blue
-time.sleep(1)
-set_rgb(0, 0, 0)    # off
+Open the main.py file, which contains this starter program:
+
+```python
+from helper import LED
+
+led = LED(r=15, g=13, b=12)
+
+led.blink()
 ```
-
 --- /task ---
+
+### Save the program to your microcontroller
 
 --- task ---
 
-Click the Green **Run** button and the RGB LED will show red, green and blue for one second each, then turn off.
-
---- /task ---
-
---- task ---
-
-Click the **Stop** button.  
-
---- /task ---
-
-### Save your program to your microcontroller
-
---- task ---
-
-Make sure you have Stopped the program, then click the 'Save' icon, or choose 'Save' from the 'File' menu.
+Click 'Save As' from the 'File' menu.
 
 --- /task ---
 
 Thonny will give you the option to save the file on **This computer**, or the **MicroPython device**. 
 
-![Option buttons to save the file on **This computer** or the **MicroPython device**](images/save-on-device.png){:width="300px"}
+![Option buttons to save the file on This computer or the MicroPython device](images/save-on-device.png){:width="300px"}
 
 --- task ---
 
@@ -143,4 +126,8 @@ Enter `main.py` as the file name and Click 'OK'.
 
 --- /task ---
 
-**Debug**: If you get an error saying the device is busy, you need to first 'Stop' the program running.
+--- task ---
+
+Click the Green **Run** button and the RGB LED will turn on and off.
+
+--- /task ---

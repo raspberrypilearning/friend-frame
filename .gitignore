@@ -5,6 +5,7 @@
 ### Python ###
 env/
 main.py
+ntfy.py
 
 ### Emacs ###
 \#*\#

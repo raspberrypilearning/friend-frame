@@ -1,20 +1,12 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+Add colourful notifications to a photo-frame, so you can keep in touch with your friends!
 
 --- print-only ---
 
 ![ALT TEXT](images/IMAGE.png)
 
 --- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
 
 --- no-print ---
 
@@ -32,14 +24,15 @@ Youtube embed
 </div><br>
 </html>
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
 --- /no-print ---
 
 ### You will need:
-- a
-- b
-- c
+
+**For each friend frame**:
+
+- ESP32 or ESP8266 microprocessor
+- RGB LED
+- 2 x Touch capacitive sensors
+- 3 x 330 ohm resistor
+- Socket to pin jumper cables
+- Breadboard
