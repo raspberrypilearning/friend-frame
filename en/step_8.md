@@ -28,7 +28,7 @@ led = LED(r=15, g=13, b=12)
 
 --- /task ---
 
-### Respond only to notifications from a friend.
+### Respond only to notifications from a friend
 
 --- task ---
 

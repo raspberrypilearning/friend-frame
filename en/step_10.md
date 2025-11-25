@@ -2,7 +2,7 @@
 
 Let the user 'clear' the LED and 'send' notifcations to ntfy so that other friend frames can receive them.
 
-### Touch to clear.
+### Touch to clear
 
 The frame can have a 'Clear' touch sensor.
 
@@ -27,7 +27,7 @@ When you touch the sensor, the RGB LED should turn off.
 
 --- task ---
 
-Import the touchpad helper.
+Import the TouchPad helper.
 
 --- code ---
 ---
@@ -93,7 +93,7 @@ while True:
 
 --- /task ---
 
-### Touch to send.
+### Touch to send
 
 Give the frame a 'Send' touch sensor.
 
@@ -142,7 +142,7 @@ send_pad = Touchpad(4)
 
 --- task ---
 
-Blink the LED and send MY_DEVICE ("frame-a") to notfy when the sensor is touched.
+Blink the LED and send MY_DEVICE ("frame-a") to ntfy when the sensor is touched.
 
 --- code ---
 ---
@@ -171,10 +171,10 @@ while True:
 
 --- task ---
 
-1) Your frame.
+**Your frame**:
 - Stick the touchpads to the sides of your frame. You can label them if you want.
 
-1) Your friend's frame.
+**Your friend's frame**:
 - Stick the touchpads on and give it to your friend.
 
 --- /task ---
@@ -189,7 +189,7 @@ The RGB LEDs should blink blue when connected to WiFi.
 Your RGB LED should blink cyan and your **friend's** RGB LED should turn green.
 
 - Press the 'clear' touch pad on your friend's frame.
-Your friend's RGB LED should turn **off**.
+Your **friend's** RGB LED should turn **off**.
 
 - Press the 'send' touchpad on your **friend's** frame.
 Your **friend's** RGB LED should blink cyan and your RGB LED should turn green.

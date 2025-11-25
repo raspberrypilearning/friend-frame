@@ -32,10 +32,10 @@ Save the code to the second MicroPython device.
 
 --- task ---
 
-1) Your frame.
+**Your frame**:
 - Place your first build behind or inside a photo frame of your friend so you can see the LED.
 
-1) Your friend's frame.
+**Your friend's frame**:
 - Place your second build behind or inside a photo frame of you. 
 - Give it to your friend.
 
