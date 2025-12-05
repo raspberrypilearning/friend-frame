@@ -64,12 +64,6 @@ Use jumper cables to connect the resistors to the microcontroller pins.
 
 --- /task ---
 
---- task ---
-
-Connect the microcontroller to your computer using a usb cable.
-
---- /task ---
-
 ### Download the starter project
 
 --- task ---
@@ -78,8 +72,8 @@ Download the [starter](resources/frame.zip){:target="_blank"} project and double
 
 The 'frame' folder contains two Python files: 
 
-1) a starter file 'main.py'
-2) a 'helper.py' file.
+1) a starter file `main.py`
+2) a `helper.py` file.
 
 --- /task ---
 
@@ -87,7 +81,7 @@ The 'frame' folder contains two Python files:
 
 --- task ---
 
-Open the main.py file, which contains this starter program:
+Open the `main.py` file, which contains this starter program:
 
 ```python
 from helper import LED

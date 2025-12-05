@@ -36,8 +36,8 @@ line_highlights: 3-4
 ---
 from helper import LED, WiFi
 
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
 
 led = LED(r=15, g=13, b=12)
 
@@ -77,8 +77,8 @@ line_highlights: 8-9
 ---
 from helper import LED, WiFi
 
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
 
 led = LED(r=15, g=13, b=12)
 
@@ -102,8 +102,8 @@ line_highlights: 12
 ---
 from helper import LED, WiFi
 
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
 
 led = LED(r=15, g=13, b=12)
 
