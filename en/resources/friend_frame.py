@@ -2,10 +2,10 @@ from helper import LED, WiFi, Ntfy, Touchpad
 import time
 
 # ---- Setup ----
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
-MY_DEVICE = "frame-a"  # "frame-b" on your friend's frame
-FRIEND_DEVICE = "frame-b"  # "frame-a" on your friend's frame
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
+MY_DEVICE = "alice"  # "rajib" on your friend's frame
+FRIEND_DEVICE = "rajib"  # "alice" on your friend's frame
 TOPIC = "your_topic"
 
 led = LED(r=15, g=13, b=12)

@@ -1,4 +1,4 @@
-## Check topic
+## Check for notifications
 
 --- task ---
 
@@ -13,8 +13,8 @@ line_highlights: 5
 ---
 from helper import LED, WiFi
 
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
 TOPIC = "your-topic"
 
 led = LED(r=15, g=13, b=12)
