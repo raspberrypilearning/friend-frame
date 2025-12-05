@@ -16,10 +16,26 @@ language: python
 line_numbers: true
 line_number_start: 4
 ---
-WIFI_SSID = "your_ssid"  # Your friend's SSID
-WIFI_PASS = "your_pass"  # Your friend's password
-MY_DEVICE = "frame-b"
-FRIEND_DEVICE = "frame-a"
+WIFI_SSID = "rajib_ssid"  # Your friend's SSID
+WIFI_PASS = "rajib_pass"  # Your friend's password
+--- /code ---
+
+**Note**: Keep your friend's WiFi password safe!
+
+--- /task ---
+
+--- task ---
+
+Swap the device name variables:
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 6
+---
+MY_DEVICE = "rajib"
+FRIEND_DEVICE = "alice"
 --- /code ---
 
 --- /task ---
@@ -47,10 +63,10 @@ Save the code to the second MicroPython device.
 - Power up both devices.
 The RGB LEDs should blink blue when connected to WiFi.
 
-- Post the message ("frame-b") to your topic.
+- Post the message ("rajib") to your topic.
 Your RGB LED should turn green.
 
-- Post the message ("frame-a") to your topic.
+- Post the message ("alice") to your topic.
 Your **friend's** RGB LED should turn green.
 
 --- /task ---
