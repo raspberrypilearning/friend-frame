@@ -42,4 +42,8 @@ sudo apt update && sudo apt upgrade -y
 
 --- /task ---
 
-**Note**: Do not open Thonny yet.
+--- task ---
+
+Do not open Thonny yet!
+
+--- /task ---

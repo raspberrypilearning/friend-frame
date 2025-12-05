@@ -11,8 +11,8 @@ steps:
   - title: Add the MicroPython firmware
   - title: RGB LED
   - title: Connect to WiFi
-  - title: Create a topic
-  - title: Check topic
+  - title: Choose a topic
+  - title: Check for notifications
   - title: Respond to specific messages
   - title: Build your friend's frame
   - title: Challenge
