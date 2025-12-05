@@ -55,11 +55,11 @@ line_highlights: 10
 ---
 from helper import LED, WiFi, Ntfy, Touchpad
 
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
 TOPIC = "your-topic"
-MY_DEVICE = "frame-a"       # Use "frame-b" on your friend's frame
-FRIEND_DEVICE = "frame-b"   # Use "frame-a" on your friend's frame
+MY_DEVICE = "alice"       # Use "rajib" on your friend's frame
+FRIEND_DEVICE = "rajib"   # Use "alice" on your friend's frame
 
 led = LED(r=15, g=13, b=12)
 clear_pad = Touchpad(5)
@@ -126,11 +126,11 @@ line_highlights: 11
 ---
 from helper import LED, WiFi, Ntfy, Touchpad
 
-WIFI_SSID = "your_ssid"
-WIFI_PASS = "your_pass"
+WIFI_SSID = "alice_ssid"
+WIFI_PASS = "alice_pass"
 TOPIC = "your-topic"
-MY_DEVICE = "frame-a"       # Use "frame-b" on your friend's frame
-FRIEND_DEVICE = "frame-b"   # Use "frame-a" on your friend's frame
+MY_DEVICE = "alice"       # Use "rajib" on your friend's frame
+FRIEND_DEVICE = "rajib"   # Use "alice" on your friend's frame
 
 led = LED(r=15, g=13, b=12)
 clear_pad = Touchpad(5)
@@ -142,7 +142,7 @@ send_pad = Touchpad(4)
 
 --- task ---
 
-Blink the LED and send MY_DEVICE ("frame-a") to ntfy when the sensor is touched.
+Blink the LED and send MY_DEVICE ("alice") to ntfy when the sensor is touched.
 
 --- code ---
 ---
