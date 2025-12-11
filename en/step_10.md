@@ -27,16 +27,17 @@ When you touch the sensor, the RGB LED should turn off.
 
 --- task ---
 
-Import the TouchPad helper.
+Import the TouchPad helper and the time library.
 
 --- code ---
 ---
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 1
+line_highlights: 1,2
 ---
 from helper import LED, WiFi, Ntfy, Touchpad
+import time
 
 --- /code ---
 
@@ -51,9 +52,10 @@ Set up the touch sensor as `clear_pad`.
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 10
+line_highlights: 11
 ---
 from helper import LED, WiFi, Ntfy, Touchpad
+import time
 
 WIFI_SSID = "alice_ssid"
 WIFI_PASS = "alice_pass"
@@ -76,8 +78,8 @@ Turn the LED off when the sensor is touched.
 ---
 language: python
 line_numbers: true
-line_number_start: 19
-line_highlights: 20-21
+line_number_start: 20
+line_highlights: 21-22
 ---
 while True:
     if clear_pad.pressed():
@@ -122,9 +124,10 @@ Set up the touch sensor as `send_pad`.
 language: python
 line_numbers: true
 line_number_start: 1
-line_highlights: 11
+line_highlights: 12
 ---
 from helper import LED, WiFi, Ntfy, Touchpad
+import time
 
 WIFI_SSID = "alice_ssid"
 WIFI_PASS = "alice_pass"
@@ -148,8 +151,8 @@ Blink the LED and send MY_DEVICE ("alice") to ntfy when the sensor is touched.
 ---
 language: python
 line_numbers: true
-line_number_start: 19
-line_highlights: 23-25
+line_number_start: 20
+line_highlights: 24-26
 ---
 while True:
     if clear_pad.touched():
