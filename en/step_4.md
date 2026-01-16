@@ -16,7 +16,7 @@ The second leg from the top should be the longest leg.
 
 --- task ---
 
-Connect a the GND pin on your microcontroller to the same row as that GND leg of the RGB LED.
+Connect the GND pin on your microcontroller to the same row as the GND leg of the RGB LED.
 
 ![GND pin from ESP board connected to the same row as the RGB GND leg.](images/RGB-bb-6.png){:width="450px"}
 
@@ -72,8 +72,8 @@ Download the [starter](resources/frame.zip){:target="_blank"} project and double
 
 The 'frame' folder contains two Python files: 
 
-1) a starter file `main.py`
-2) a `helper.py` file.
+1) A starter file `main.py`
+2) A `helper.py` file.
 
 --- /task ---
 
