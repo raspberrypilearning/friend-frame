@@ -22,7 +22,7 @@ Go to Tools > Options > Interpreter.
 
 Select the interpreter you want to use (e.g. `Micropython (ESP8266)`).
 
-Then select the Port your board is connected to (e.g. `USB Serial @ dev/cu.usbserial-11120`).
+Then select the port your board is connected to (e.g. `USB Serial @ dev/cu.usbserial-11120`).
 
 --- /task ---
 
@@ -34,7 +34,7 @@ Click 'Install or update MicroPython'.
 
 --- task ---
 
-Select the Target port (the same port you chose before).
+Select the target port (the same port you chose before).
 
 --- /task ---
 
@@ -56,7 +56,7 @@ Click 'Install'.
 
 --- /task ---
 
-In the bottom right corner of the Thonny window, you will see the interpreter used to run the code you write in Thonny.
+In the bottom-right corner of the Thonny window, you will see the interpreter used to run the code you write in Thonny.
 
 By default, Thonny uses the interpreter on the 'Local' computer (the one running Thonny).
 
