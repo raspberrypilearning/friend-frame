@@ -16,7 +16,7 @@ The second leg from the top should be the longest leg.
 
 --- task ---
 
-Connect the GND pin on your microcontroller to the same row as the GND leg of the RGB LED.
+Connect a GND pin on your microcontroller to the same row as the GND leg of the RGB LED.
 
 ![GND pin from ESP board connected to the same row as the RGB GND leg.](images/RGB-bb-6.png){:width="450px"}
 
